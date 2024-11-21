@@ -10,6 +10,8 @@ namespace Abstracciones.Modelos
     {
         public Guid IdPersona { get; set; }
         public string? Video { get; set; }
+
+        public string Descripcion { get; set; }
     }
     public class PerfilBD:Perfil
     {        
